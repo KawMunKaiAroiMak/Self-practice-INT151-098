@@ -1,0 +1,1 @@
+#เรียนเรื่อง การดำเนินการ Array เช่น Array.of,Array.from,new Array และการใช้ loop เพื่อหาคำตอบที่ต้องการใ Array รวมไปถึง Object
