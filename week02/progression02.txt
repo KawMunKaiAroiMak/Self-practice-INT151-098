@@ -1,0 +1,2 @@
+# เรียนเกี่ยวกับ Object ตั้งแต่Object literal คือการกำหนด keyภายใต้ {} เช่น {Firstname, Lastname} 
+รวมไปถึง constructor function ที่เป็นฟังก์ชันรับค่าเอาไว้สร้าง Object และClassกำหนดตัวแบบเอาไว้สำหรับเป็นแม่แบบสำหรับการสร้าง Object 
