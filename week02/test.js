@@ -107,3 +107,20 @@ console.log(title)//JS
 //console.log(firstname)
 //destructuring on Object
 const h1 ={isbn: 1234,title: 'JS', authors: {firstname: 'Jon'},}
+
+//pratice shallow Equality
+let student1 = {Name: "Somchai", Age: 19}
+let student2 = {Name: "Somying", Age: 18}
+function shallowEquality(n1,n2){
+    const  Key1= Object.keys(n1)
+    const  Key2= Object.keys(n2)
+    if(Key1.length !== Key2.length){
+        return false
+    }
+    for(let key of Key1){
+        if(n1[key] !== n2[key]){
+            return false
+        }
+    }
+    return true            //เปรียบเทียบว่า Object เท่ากันหรือไท่โดยการเทียบความยาวของkeyและเทียบkeyไปเลยว่าvalueตรงกันหรือไม่
+}
