@@ -1,1 +1,2 @@
-#
+#เรียนเรื่อง Function ตั้งแต่ function declaration ซึ่งก็คือ การสร้างฟังก์ชันปกติขึ้นมา แต่มาคือ function expression โดยการใช้ arrow function syntax(=>)
+#จากนั้นก็เอาทั้ง function declaration และ function expression มารวมกัน

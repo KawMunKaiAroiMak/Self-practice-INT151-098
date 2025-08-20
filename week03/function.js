@@ -64,26 +64,15 @@
 // //     return b
 // // } */
 
-
-function getFreqOfWords(sentence){
-    if(sentence === null || sentence === undefined)
+//pratice
+function getFreqOfWords(sentence) {
+    if (sentence === null || sentence === undefined) {
         return undefined
-    let sens = sentence.lowercase().split(" ") 
-    let count = {};   
-    for(i of sens){
-        if(sentence[i] == 0 ){
-          word += 1
-          co
-        };
-        return {sens[0]}
     }
-    return z
+    result = {}
+    sentenceArray = sentence.split(' ').filter(Boolean)
+    for (const i of sentenceArray) {
+        result[i] = i in result ?  result[i] + 1 : 1
+    }
+    return result
 }
-console.log(getFreqOfWords("This is a pencil"))
-console.log(getFreqOfWords(null));
-console.log(getFreqOfWords(undefined));
-
-
-let v ="This is a pencil";
-let m = v.split(" ");
-console.log(m)
