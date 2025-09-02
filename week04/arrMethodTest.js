@@ -91,10 +91,54 @@ const words1 = ["Mango", "Apple", "mangosteen", "orange", "mangoes"]
 // console.log(words1)
 // let sp3 = words1.splice(2,0,'melon','cherry')
 // console.log(words1)
-let s1 = words1.slice(2,5)
-let s2 = words1.slice(0,4)
-let s3 = words1.fill(null)
+// let s1 = words1.slice(2,5)
+// let s2 = words1.slice(0,4)
+// let s3 = words1.fill(null)
 
-console.log(s1)
-console.log(s2)
-console.log(s3)
+// console.log(s1)
+// console.log(s2)
+// console.log(s3)
+
+//.filter.map -> declarative
+
+console.log(Array.isArray([])) //true
+console.log(Array.isArray('[]')) //false
+
+const array1 = ["a","b","c"]
+const array2 = ["d","e","f"]
+const array3 = array1.concat(array2)
+
+console.log(array3)
+console.log(array3.toString())
+
+const array14 = [1,30,4,21,100000]
+array14.sort((x,y) => x-y )
+console.log(`array14 = ${array14}`)
+
+
+const stds = [
+  { id: 1, name: "Tisanai", email: "tisanai@sit.kmutt.ac.th" },
+  { id: 5, name: "Pornchai", email: "pornchai@sit.kmutt.ac.th" },
+  { id: 2, name: "Suda", email: "suda@sit.kmutt.ac.th" },
+];
+
+stds.sort((a, b) => a.name > b.name ? 1 : -1);
+
+console.log(stds);
+
+
+// stds.sort((a, b) => {
+//     const nameA = a.name
+//     const nameB = b.name
+//     if (nameA>nameB) {
+//         return 1
+        
+//     } else if (nameB>nameA) {
+//         return -1
+        
+//     }else{
+//         return 0 
+//     }
+
+// })
+// console.log(stds);
